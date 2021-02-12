@@ -1,0 +1,79 @@
+.sidebar{
+    width: 300px;
+    background: rgba(0,0,0,0.9);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.back__btn{
+    background: #693b52;
+    width: 32px;
+    height: 32px;
+    line-height: 1;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    color: #fff;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.register__option{
+    margin: 1rem 0;
+}
+
+.sidebar-nav-link{
+    display: block;
+    padding: 12px 13px;
+    background: #693b52;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 24px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.right_sidebar_link{
+    margin: 18px 0;
+}
+
+.link{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.2s ease-out;
+}
+
+.link:hover{
+    background: #693b52;
+}
+
+
+.right_nav_contact{
+  margin: 1rem 0
+}
+
+.right_nav_contact p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.4;
+}
+ul{
+    font-size: 14px;
+    list-style: none;
+    color: #fff;
+    line-height: 1.4;
+}
+
+li{}
+
