@@ -1,10 +1,12 @@
 import './App.css';
- import { BrowserRouter as Router } from 'react-router-dom';
+ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './Header';
 import GlobalState from './GlobalState';
+import Home from './Pages/Home'
+import Register from './Pages/Register'
+import Login from './Pages/Login'
 import Footer from './Footer/Footer';
-import Slider from './Components/Slider';
-import Marquee from './Components/Marquee';
+
 
 function App() {
   return (
@@ -12,8 +14,11 @@ function App() {
         <GlobalState>
           <Router>
             <Header />
-            <Slider />
-            <Marquee />
+              <Switch>
+                <Route path="/" exact component={Home} />
+                <Route path="/register"  component={Register} />
+                <Route path="/login"  component={Login} />
+              </Switch>
             <Footer />
           </Router>
         </GlobalState>

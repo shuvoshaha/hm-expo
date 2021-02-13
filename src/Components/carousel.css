@@ -1,0 +1,44 @@
+
+.carousel{
+ margin: 2rem 0;
+ text-align: center;
+}
+
+.slick-slide img{
+    width: 300px  !important;
+}
+
+.carousel-title{
+    text-align: center;
+    color: rgba(105,59,82,1);
+}
+.id{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.followers{
+    font-size: 13px;
+    color: #888888;
+    margin: 2px 0;
+}
+
+.profle{
+    font-size: 11px;
+    text-decoration: none;
+    background: #693b52;
+    padding: 5px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.slick-prev{
+    left: 0;
+    top: 36%;
+    z-index: 1;
+}
+
+.slick-next {
+    right: 0 !important;
+    z-index: 1;
+}

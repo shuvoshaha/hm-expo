@@ -1,0 +1,42 @@
+.happy_stories{
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.all-plan{
+  margin-bottom: 5px;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 12px;
+  background: #693b52;
+  color: #fff;
+  border-radius: 16px;
+
+}
+
+.happy_stories_title{
+  color: #693b52;
+
+}
+
+.happy-img{
+    position: relative;
+}
+
+.love{
+    position: absolute;
+    bottom: 2px;
+    color: #fff;
+    background: rgba(73,47,41,.7);
+    width: 100%;
+    padding: 7px;
+    font-size: 12px;
+    text-align: left !important;
+}
+
+.slick-slide img{
+  width: 100%!important;
+}
+
+
+

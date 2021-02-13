@@ -1,0 +1,14 @@
+.browsplan {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.browsplan h2 {
+  color: rgba(105, 59, 82, 1);
+}
+
+.browsplan p {
+    font-size: 13px;
+    margin-bottom: 1rem;
+
+}
