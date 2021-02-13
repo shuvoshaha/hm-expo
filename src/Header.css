@@ -13,8 +13,10 @@ nav{
 }
 
 .brand__name{
-    width: 120px;
-    height: auto;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 55px;
 }
 
 .item{
@@ -44,6 +46,10 @@ nav{
     align-items: center;
     justify-content: center;
     font-size: 14px
+}
+
+.toggle:focus .sidebar{
+  right: 0;
 }
 
 @media (max-width: 700px){

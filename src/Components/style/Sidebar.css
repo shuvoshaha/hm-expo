@@ -1,11 +1,14 @@
 .sidebar{
     width: 300px;
+    max-width: 100%;
     background: rgba(0,0,0,0.9);
     height: 100vh;
     position: fixed;
     top: 0;
+    right: 0;
     padding: 1rem;
     overflow-y: auto;
+    transition: right 0.3s ease-out; 
 }
 
 .back__btn{
@@ -22,7 +25,9 @@
     color: #fff;
     margin: 10px 0;
     cursor: pointer;
+    transition: all 0.3s ease-out;
 }
+
 
 .register__option{
     margin: 1rem 0;
@@ -75,5 +80,7 @@ ul{
     line-height: 1.4;
 }
 
-li{}
+.toggle{
+    cursor: pointer;
+}
 
