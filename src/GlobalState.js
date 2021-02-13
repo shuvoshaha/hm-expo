@@ -2,11 +2,12 @@ import React, { useEffect, useState, createContext } from 'react';
 import axios from 'axios';
 
 //Global Context
-export const CountryAPI = createContext();
+export const contexAPI = createContext();
 
 const GlobalState = ({ children }) => {
     const [country, setCountry] = useState([]);
     const [err, setErr] = useState(false);
+    const [img, setImg] = useState([]);
 
     //API Call
     useEffect(()=>{
@@ -21,11 +22,20 @@ const GlobalState = ({ children }) => {
         })
     }, []);
     // console.log(country);
+
+    useEffect(() => {
+       axios.get('https://pixabay.com/api/?key=20055481-747d5a5045dd80c339cb1387d&q=yellow+flowers&image_type=photo')
+       .then(res =>{
+           setImg(res.data.hits)
+       })
+    }, [])
+
+    console.log(img)
     
     return (
-        <CountryAPI.Provider value={{ country }}>
+        <contexAPI.Provider value={{ country, img }}>
             { children }
-        </CountryAPI.Provider>
+        </contexAPI.Provider>
     )
 }
 

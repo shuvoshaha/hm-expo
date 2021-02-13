@@ -3,6 +3,7 @@ import slide1 from "../IMG/slider_image_4.webp";
 import slide2 from "../IMG/slider_image_3.webp";
 import "./Slider.css";
 
+
 import SwiperCore, {
   Navigation,
   Scrollbar,
@@ -17,6 +18,7 @@ SwiperCore.use([Navigation, Scrollbar, Pagination, Autoplay]);
 
 const Slider = () => {
 
+
   return (
    <div className="swiper-slider">
       <Swiper slidesPerView={1} autoplay>
@@ -24,6 +26,8 @@ const Slider = () => {
           <img src={slide1} alt="" className="slide-img" />
           {/* <h4 className="title">Happiness is everything</h4> */}
         </SwiperSlide>
+
+      
 
         <SwiperSlide>
           <img src={slide2} alt="" />
