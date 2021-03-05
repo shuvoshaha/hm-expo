@@ -15,7 +15,7 @@ function App() {
           <Router>
             <Header />
               <Switch>
-                <Route path="/" exact component={Home} />
+                <Route path="/hm-expo" exact component={Home} />
                 {/* <Route path="/register"  component={Register} /> */}
                 <Route path="/login"  component={Login} />
               </Switch>
